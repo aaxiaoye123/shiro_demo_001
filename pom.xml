@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.shirotest</groupId>
+    <artifactId>shiro_demo_001</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <!--单元测试相关的依赖-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.9</version>
+        </dependency>
+        <!--日志相关的依赖-->
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.2</version>
+        </dependency>
+
+        <!--必须导入的依赖-->
+        <!--shiro-core是Shiro最核心的依赖包-->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-core</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+
+           <!--导入数据库访问的包-->
+           <dependency>
+               <groupId>mysql</groupId>
+               <artifactId>mysql-connector-java</artifactId>
+               <version>5.1.25</version>
+           </dependency>
+            <!--druid连接池-->
+           <dependency>
+               <groupId>com.alibaba</groupId>
+               <artifactId>druid</artifactId>
+               <version>1.0.9</version>
+           </dependency>
+    </dependencies>
+
+</project>
